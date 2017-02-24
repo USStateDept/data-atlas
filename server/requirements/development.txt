@@ -1,0 +1,24 @@
+# Everything the developer needs in addition to the production requirements
+-r production.txt
+
+# Testing
+pytest
+pytest-base-url
+pytest-cov
+pytest-env
+pytest-factoryboy
+pytest-flask
+pytest-xdist
+webtest
+
+# Style checkers/linters
+flake8
+pep8
+pydocstyle
+pylint
+pylint-flask
+
+# Management script
+Flask-Script
+
+honcho

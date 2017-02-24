@@ -1,0 +1,23 @@
+# Everything needed in production
+
+wheel
+
+# Flask
+Flask
+Flask-RESTful
+blinker
+
+# Database
+Flask-SQLAlchemy
+psycopg2
+GeoAlchemy2
+
+# Migrations
+Flask-Migrate
+
+# Deployment
+gunicorn
+gevent
+
+# Utils
+simplejson

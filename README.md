@@ -6,6 +6,8 @@ This application is focused on creating a modular abstraction to ingest CSV file
 
 The front-end client allows users to have the ability to drag/drop columns in their CSV to database fields and edit the non-validated entries in the browser.
 
+![Atlas](./assets/atlas_shrugged.jpg)
+
 ## Project Structure
 
 * The Client Application is located in the `/client/` directory

@@ -38,3 +38,4 @@ template.json
 
 # Production Settings
 /server/app/table_mappings.py
+/server/tests/test_data/*

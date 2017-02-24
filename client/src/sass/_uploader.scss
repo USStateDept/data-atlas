@@ -1,0 +1,136 @@
+.Uploader {
+  height: 100%;
+  max-height: 100%;
+}
+
+.Uploader-dropzone {
+  margin: 10px;
+  height: 70vh;
+  background-color: $secondaryBackground;
+}
+
+.Uploader-table-container {
+  overflow-y: scroll;
+}
+
+.Uploader-datatable {
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  td:first-child {
+    font-size: .7em;
+    font-weight: bold;
+    background-color: $secondaryBackground;
+  }
+}
+
+.DataGrid-table-header-icon-dragging,
+.DataGrid-table-header-icon-validating,
+.DataGrid-table-header-icon-neglet,
+.DataGrid-table-header-icon-validColumn,
+.DataGrid-table-header-icon-nonValidColumn {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.DataGrid-table-header-icon-validColumn {
+  color: $intentSuccess !important;
+  -webkit-animation: pulsePass 2s 1;
+}
+
+.DataGrid-table-header-icon-nonValidColumn { 
+  color: $intentFailure !important;
+  -webkit-animation: pulseFail 2s 1;
+}
+
+.DataGrid-table-header-icon-neglet {
+  color: $tertiaryAppColor !important;
+  -webkit-animation: pulse 2s infinite;
+}
+
+.DataGrid-table-header-icon-dragging {
+  color: $dragMapColor !important;
+}
+
+.DataGrid-table--header-icon-validating{
+  color: orange !important;
+}
+
+.Uploader-header-mappings {
+  margin: 20px;
+}
+
+.Header-map-pointer {
+  margin-left: 10px;
+  margin-right: 10px;
+  -webkit-transform:scale(3,1); /* Safari and Chrome */
+  -moz-transform:scale(3,1); /* Firefox */
+  -ms-transform:scale(3,1); /* IE 9 */
+  -o-transform:scale(3,1); /* Opera */
+  transform:scale(3,1); /* W3C */
+}
+
+.Header-map-error-link {
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+    color: $intentFailure;
+  }
+}
+
+.DataGrid-container{
+  height: 100%;
+  width: inherit;
+  font-size: .75em;
+}
+
+.DataGrid-header-container {
+  cursor: pointer;
+  white-space: nowrap;
+  border-top: none;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(lightgrey));
+  background-image: -webkit-linear-gradient(transparent, lightgrey);
+  background-image:
+      -moz-linear-gradient(transparent, lightgrey),
+      -moz-linear-gradient(transparent, lightgrey)
+  ;
+  background-image:
+      -o-linear-gradient(transparent, lightgrey),
+      -o-linear-gradient(transparent, lightgrey)
+  ;
+  background-image: 
+      linear-gradient(transparent, lightgrey),
+      linear-gradient(transparent, lightgrey)
+  ;
+  -moz-background-size: 1px 100%;
+  background-size: 1px 100%;
+  background-position:0 0, 100% 0;
+  background-repeat:no-repeat;
+  background-color: $secondaryBackground;
+}
+
+.DataGrid-cell-container {
+  overflow: hidden;
+  cursor: cell;
+  border: 1px solid lightgrey;
+}
+
+.DataGrid-cell-container:hover{
+  background-color: $secondaryFillColor;
+  color: $secondaryAppColor;
+}
+
+.DataGrid-table-cell-valid {
+  background-color: $intentSuccessLight;
+}
+
+.DataGrid-table-cell-invalid {
+  background-color: $intentFailureLight;
+}
+
+.Datagrid-highlight{
+  background-color: $tertiaryFillColor;
+}

@@ -1,0 +1,35 @@
+/** Ant overrides **/
+.ant-card {
+  margin-bottom: 20px;
+}
+
+.ant-card-head {
+  height: auto !important;
+}
+
+.ant-spin-blur {
+  opacity: 1 !important;
+  -webkit-filter: blur(1px) !important;
+  filter: blur(1px) !important;
+}
+
+.ant-upload.ant-upload-drag .ant-upload-drag-container {
+    height: 70vh;
+}
+
+.ant-timeline-item-head-custom {
+  width: 12px !important; 
+  left: 0px !important;
+}
+
+.App-toolbar {
+
+  .ant-tabs-nav-scroll {
+    background-color: $primaryFillColor;
+  }
+}
+
+/* other */
+table {
+  border-collapse: collapse;
+}

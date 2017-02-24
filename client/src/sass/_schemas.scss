@@ -1,0 +1,71 @@
+.Schemas {
+  height: 60%;
+  max-height: 60%;
+  border-bottom: 1px solid $primaryFillColor;
+}
+
+.Schemas-view {
+  margin: 2.5%;
+  height: 95%;
+  overflow: scroll;
+}
+
+.Schema-choices {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.Schema-list-row {
+  cursor: default;
+  color: $primaryFillColor;
+  min-height: 35px;
+}
+
+.Schema-list-row:hover {
+  background-color: $tertiaryAppColor;
+  min-height: 35px;
+}
+
+.Schema-field > td,
+.Schema-field-isover > td {
+  height: 12px;
+}
+
+.Schema-field {
+  outline: 1px solid transparent;
+}
+
+.Schema-field-isover {
+  outline: 1px solid $dragMapColor;
+}
+
+.Schema-field-icon-nodrop,
+.Schema-field-icon-dropping,
+.Schema-field-icon-validating,
+.Schema-field-icon-validMapping,
+.Schema-field-icon-nonValidMapping,
+.Schema-field-icon-neglet {
+  margin-right: 10px;
+}
+
+.Schema-field-icon-neglet {
+  color: $tertiaryAppColor !important;
+  -webkit-animation: pulse 2s infinite;
+}
+
+.Schema-field-icon-validating {
+  color: orange !important;
+}
+.Schema-field-icon-validMapping {
+  color: $intentSuccess !important;
+  -webkit-animation: pulsePass 2s 1;
+}
+.Schema-field-icon-nonValidMapping {
+  color: $intentFailure !important;
+  -webkit-animation: pulseFail 2s 1;
+}
+
+.Schema-field-icon-dropping {
+  color: $dragMapColor !important;
+}
+

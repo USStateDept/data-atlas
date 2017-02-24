@@ -84,7 +84,7 @@ An example would be the 'Authors' table in the database for when we are ingestin
 An example would be from the 'Authors' table email so that we can uniquely identify the `id` for the row in the 'Authors' table
 
 ```sql
-SELECT author_id FROM Authors WHERE email = 'some_email@datastructr.com'
+SELECT author_id FROM Authors WHERE email = 'some_email@state.gov'
 ```
 ---
 

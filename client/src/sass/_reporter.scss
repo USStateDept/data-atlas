@@ -1,0 +1,46 @@
+.Reporter {
+  height: 40%;
+  max-height: 40%;
+}
+
+.Reporter-container{
+  height: 97%;
+  width: 97%;
+  margin: 1.5%;
+}
+
+.Reporter-logger-row {
+  height: 45%;
+  max-height: 45%;
+  min-height: 45%;
+  margin-bottom: 10px;
+  overflow: scroll;
+  -moz-box-shadow:    inset 0 0 1px #000000;
+  -webkit-box-shadow: inset 0 0 1px #000000;
+  box-shadow:         inset 0 0 1px #000000;
+  border-radius: 5px;
+}
+
+.Reporter-logger-timeline {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.Reporter-logger-row-text {
+  font-size: .85em !important;
+}
+
+.Reporter-chart-dash-box {
+  text-align: center;
+}
+
+.Reporter-chart-dash-number {
+    width: 100%;
+    text-align: center;
+    font-family: tahoma;
+    margin: 0;
+    color: $intentFailure;
+    font-size:  2.5em;
+    height: 50px;
+}

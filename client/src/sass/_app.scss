@@ -1,0 +1,81 @@
+/* bootstrap overrides */
+.col-md-7 {
+  padding: 0px !important;
+}
+.col-md-5 {
+  padding: 0px !important;
+}
+
+body {
+  color: $primaryAppColor;
+  background-color: $primaryBackground;
+}
+
+.App-success-text {
+  color: $intentSuccess !important;
+}
+
+.App-warning-text {
+  color: $intentWarning !important;
+}
+
+.App-failure-text {
+  color: $intentFailure !important;
+}
+
+
+.App-right-view {
+  height: 90vh;
+  max-height: 90vh !important;
+  border-left: 1px solid $primaryFillColor;
+}
+
+.App-left-view {
+  height: 90vh;
+  max-height: 90vh !important;
+  position: absolute;
+}
+
+.App-toolbar {
+  width:100%;
+  background: white;
+  border-bottom: 1px solid $primaryFillColor;
+}
+
+.App-toolbar-item {
+  display: inline-block;
+  margin: 0px 10px 5px 10px;
+  cursor: pointer;
+} 
+
+.App-toolbar-item-text {
+  font-size: .8em;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: $primaryFillColor;
+}
+
+.App-toolbar-item-icon {
+  font-size: 24px !important;
+}
+
+.App-toolbar-disabled {
+  color: $tertiaryAppColor;
+  cursor: not-allowed;
+}
+
+.App-toolbar-disabled > .App-toolbar-item-text {
+  color: $tertiaryAppColor;
+}
+
+.App-toolbar-enabled:hover {
+  color: $dragMapColor;
+}
+
+.flip-horizontal {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}

@@ -1,0 +1,39 @@
+{
+  "name": "morphecsv",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^2.5.2",
+    "immutable": "^3.8.1",
+    "lodash": "^4.16.6",
+    "papaparse": "^4.1.2",
+    "react": "^15.4.2",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-addons-shallow-compare": "^15.4.2",
+    "react-dnd": "^2.1.4",
+    "react-dnd-html5-backend": "^2.1.2",
+    "react-dom": "^15.4.2",
+    "react-dropzone": "^3.7.3",
+    "react-redux": "^4.4.5",
+    "react-virtualized": "^8.8.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "redux-undo": "^1.0.0-beta9-1",
+    "validator": "^6.1.0"
+  },
+  "devDependencies": {
+    "node-sass": "^3.12.5",
+    "pushstate-server": "^2.1.0",
+    "react-scripts": "0.7.0",
+    "redux-logger": "^2.7.4"
+  },
+  "scripts": {
+    "start": "npm run watch-css & react-scripts start",
+    "prod": "npm run build && NODE_ENV=production pushstate-server build",
+    "build": "npm run build-css && react-scripts build",
+    "build-css": "node-sass src/sass/base.scss src/styles/index.css",
+    "watch-css": "npm run build-css && node-sass src/sass/base.scss src/styles/index.css -w",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

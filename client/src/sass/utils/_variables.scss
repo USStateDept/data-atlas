@@ -1,0 +1,60 @@
+/* main color base */
+$primaryBackground: #fff;
+$secondaryBackground: #f1f1f1;
+$primaryAppColor: #323a45;
+$secondaryAppColor: #5b616b;
+$tertiaryAppColor: rgba(119,136,153,.5);
+
+/* fills */
+$primaryFillColor: rgba(119,136,153,1);
+$secondaryFillColor: rgba(119,136,153,.5);
+$tertiaryFillColor: rgba(119,136,153,.25);
+
+$dragMapColor: #1E90FF;
+
+$intentSuccess: #499642;
+$intentWarning: #ddab34;
+$intentFailure: #b85252;
+$intentSuccessLight: #90EE90;
+$intentFailureLight: #d77c7c;
+
+@-webkit-keyframes pulse {
+  50% {
+    box-shadow: 0 0 0 1.5px $tertiaryAppColor;
+  }
+}
+@-moz-keyframes pulse {
+  50% {
+    box-shadow: 0 0 0 1.5px $tertiaryAppColor;
+  }
+}
+
+@-webkit-keyframes pulsePass {
+  50% {
+    box-shadow: 0 0 0 1.5px $intentSuccess;
+  }
+}
+@-moz-keyframes pulsePass {
+  50% {
+    box-shadow: 0 0 0 1.5px $intentSuccess;
+  }
+}
+
+@-webkit-keyframes pulseFail {
+  50% {
+    box-shadow: 0 0 0 1.5px $intentFailureLight;
+  }
+}
+@-moz-keyframes pulseFail {
+  50% {
+    box-shadow: 0 0 0 1.5px $intentFailureLight;
+  }
+}
+
+.background-success {
+  background-color: $intentSuccessLight;
+}
+
+.background-failure {
+  background-color: $intentFailureLight;
+}
